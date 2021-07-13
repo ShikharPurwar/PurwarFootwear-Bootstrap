@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <title>Purwar Footwear</title>
+    <style>
+      /* body{
+        background-color: rgb(126, 126, 126);
+      } */
+      #copyright {
+        display: block;
+        /* border: 2px solid black; */
+        /* background-color: rgba(126, 126, 126); */
+
+        width: 100%;
+        height: 5vh;
+        text-align: center;
+        word-spacing: 1px;
+        letter-spacing: 2px;
+        color: #f8f9fa;
+        /* padding-top: 20px; */
+        font-size: 1.2rem;
+        margin-top: 10px;
+      }
+      #copyright span {
+        font-weight: 200;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="./index.html"
+          >Purwar Footwear</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light active" href="./newarrival.html"
+                >New Arrivals</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Gallery
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./men.html">Men</a></li>
+                <li>
+                  <a class="dropdown-item" href="./women.html">Women</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./brands.html">Brands</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                href="./orderonline.html"
+                tabindex="-1"
+                >Order Online</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="card text-center bg-dark text-light">
+      <div class="card-header">Featured</div>
+      <div class="card-body">
+        <h5 class="card-title">New Arrivals are Here</h5>
+        <p class="card-text">
+          Paisa leke aao tab milega new warna dekh ke kaam Chalao.
+        </p>
+        <a href="./orderonline.html" class="btn btn-danger">Order Online</a>
+      </div>
+      <div class="card-footer text-muted">Deh Chappal Deh Joota</div>
+    </div>
+    <div class="container my-3">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./img/shoe12.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Dekh ke khus Raho</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./img/slipper5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Paise leke aao</h5>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./img/shoe11.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Budget Badhao</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex mx-6 my-5 justify-content-between align-self-center flex-wrap ">
+      <div class="card px-4 mb-3" style="width: 18rem">
+        <img src="./img/na2.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Rs.999.00</h5>
+          <p class="card-text">
+            Paytm Kar Do Fatak se.Paytm nahi Chalate to Google pay kro.
+          </p>
+          <a href="./orderonline.html" class="btn btn-dark">Buy</a>
+        </div>
+      </div>
+      <div class="card px-4 mb-3" style="width: 18rem">
+        <img src="./img/na1.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Rs.9999.00</h5>
+          <p class="card-text">
+            Paytm Kar Do Fatak se.Paytm nahi Chalate to Google pay kro.
+          </p>
+          <a href="./orderonline.html" class="btn btn-dark">Buy</a>
+        </div>
+      </div>
+      <div class="card px-4 mb-3" style="width: 18rem">
+        <img src="./img/na3.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Rs.599.00</h5>
+          <p class="card-text">
+            Paytm Kar Do Fatak se.Paytm nahi Chalate to Google pay kro.
+          </p>
+          <a href="./orderonline.html" class="btn btn-dark">Buy</a>
+        </div>
+      </div>
+      <div class="card px-4 mb-3" style="width: 18rem">
+        <img src="./img/na4.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Rs.49999.00</h5>
+          <p class="card-text">
+            Paytm Kar Do Fatak se.Paytm nahi Chalate to Google pay kro.
+          </p>
+          <a href="./orderonline.html" class="btn btn-dark">Buy</a>
+        </div>
+      </div>
+
+      <!-- <div class="container d-flex mx-6 my-5 justify-content-between flex-wrap"> -->
+      <div class="card px-4 mb-3" style="width: 18rem">
+        <img src="./img/na5.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Rs.999.00</h5>
+          <p class="card-text">
+            Paytm Kar Do Fatak se.Paytm nahi Chalate to Google pay kro.
+          </p>
+          <a href="./orderonline.html" class="btn btn-dark">Buy</a>
+        </div>
+      </div>
+      <div class="card px-4 mb-3" style="width: 18rem">
+        <img src="./img/na6.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Rs.9999.00</h5>
+          <p class="card-text">
+            Paytm Kar Do Fatak se.Paytm nahi Chalate to Google pay kro.
+          </p>
+          <a href="./orderonline.html" class="btn btn-dark">Buy</a>
+        </div>
+      </div>
+      <div class="card px-4 mb-3" style="width: 18rem">
+        <img src="./img/na7.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Rs.599.00</h5>
+          <p class="card-text">
+            Paytm Kar Do Fatak se.Paytm nahi Chalate to Google pay kro.
+          </p>
+          <a href="./orderonline.html" class="btn btn-dark">Buy</a>
+        </div>
+      </div>
+      <div class="card px-4 mb-3" style="width: 18rem">
+        <img src="./img/na8.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Rs.49999.00</h5>
+          <p class="card-text">
+            Paytm Kar Do Fatak se.Paytm nahi Chalate to Google pay kro.
+          </p>
+          <a href=./orderonline.html" class="btn btn-dark">Buy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 0.5px">
+      <footer>
+        <div id="copyright" class="bg-dark">
+          <span> Copyright © 2021-2022 PurwarFootwear.com</span>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
